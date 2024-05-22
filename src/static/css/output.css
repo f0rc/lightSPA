@@ -546,10 +546,6 @@ video {
   border-width: 0;
 }
 
-.static {
-  position: static;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
