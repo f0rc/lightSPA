@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.maincolor {
+  @apply bg-[#e8ddcb]
+}
