@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <!-- <link rel="stylesheet" href="/static/css/index.css"> -->
+    <base href="/" />
+    <link href="/src/static/css/output.css" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="overflow-none flex h-screen justify-center maincolor text-black font-display">
+
+    <div class="flex h-full w-full flex-col border-x-2 border-slate-900 md:max-w-2xl">
+        <nav class="text-2xl flex justify-between px-4 border-b-2 border-black pb-5 pt-2">
+            <a href="/" class="" data-link>Home</a>
+            <a href="/signup" class="nav__link" data-link>Sign Up</a>
+            <a href="/login" class="nav__link" data-link>Log In</a>
+
+        </nav>
+        
+        
+        <div id="app" class=""></div>
+        
+    </div>
+    
+    <script type="module" src="/src/static/js/index.js"></script>
+</body>
+</html>
+
